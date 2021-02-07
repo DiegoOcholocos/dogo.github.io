@@ -1,0 +1,40 @@
+
+#scroll::-webkit-scrollbar {
+  display: none;
+}
+#scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+#titul{
+    font-family: fantasy;
+    color: #FFC300;
+}
+#imag{
+    height: 100%;
+    width: 100%;
+}
+#backima{
+    background-color: black;
+}
+.fondmov{
+    background-attachment: fixed;
+    background-position: initial;;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.twhite{
+    color: white;
+}
+.strong{
+  font-weight: bold;
+}
+.rcorners1 {
+  background: orange;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: x-large;
+}
